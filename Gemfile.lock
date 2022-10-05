@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     curb (0.9.1)
     domain_name (0.5.20160310)
       unf (>= 0.0.5, < 1.0.0)
@@ -16,6 +17,7 @@ GEM
     http-form_data (1.0.1)
     http_parser.rb (0.6.0)
     httpclient (2.7.1)
+    public_suffix (5.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
